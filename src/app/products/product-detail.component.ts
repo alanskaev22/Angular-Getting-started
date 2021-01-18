@@ -10,7 +10,7 @@ import { ProductService } from './product.service'
 })
 export class ProductDetailComponent implements OnInit {
 
-  product: IProduct;;
+  product: IProduct;
   errorMessage: string;
   pageTitle: string = 'Product Detail for: ';
 
